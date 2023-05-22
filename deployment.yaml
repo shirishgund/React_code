@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-   name: React_deploy
+   name: reactdeploy
 spec:
    replicas: 2
    selector:
     matchLabels:
-      app: React_deploy
+      app: reactdeploy
    template:
       metadata:
         labels:
-          app: React_deploy
+          app: reactdeploy
       spec:
         containers:
         - name: hello-pod
