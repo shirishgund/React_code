@@ -14,7 +14,7 @@ spec:
       spec:
         containers:
         - name: hello-pod
-          image: shirishgund/reactapp1:latest
+          image: shirishgund/sampledemo:latest
           ports:
           - containerPort: 3000
 
