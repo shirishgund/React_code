@@ -1,5 +1,5 @@
 FROM node:alpine3.16 as nodework
-WORKDIR /testbuildapp
+WORKDIR /testbuildapp1
 COPY package.json .
 RUN npm install
 COPY . .
